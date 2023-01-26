@@ -1,0 +1,2 @@
+yasm -f elf64 Hello.asm
+ld -o Hello Hello.o

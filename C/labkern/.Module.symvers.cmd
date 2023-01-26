@@ -1,0 +1,1 @@
+cmd_/home/ubuntu/Desktop/unilabs/C/labkern/Module.symvers := sed 's/\.ko$$/\.o/' /home/ubuntu/Desktop/unilabs/C/labkern/modules.order | scripts/mod/modpost -m -a  -o /home/ubuntu/Desktop/unilabs/C/labkern/Module.symvers -e -i Module.symvers   -T -
